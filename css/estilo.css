@@ -22,7 +22,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
     color: #787878;
     font-weight: normal;
-    margin: 0 0 1em;
+    margin: 1em 0;
 }
 
 h1 {
@@ -44,6 +44,7 @@ h4 {
 
 h5 {
     font-size: 18px;
+   
 }
 
 h6 {
@@ -58,6 +59,43 @@ blockquote {
     margin: 2em 0;
     padding: .5em 0 .5em 1.5em;
     
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.1em;
+    
+}
+
+li {
+    padding-left: .5em;
+}
+
+.ul-alternate {
+    list-style-type: none;
+
+}
+
+.ul-alternate li {
+    border-bottom: 2px solid #cccccc;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.ul-alternate li:last-child {
+    border: 0;
+}
+
+.ul-icons {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ul-icons li {
+    display: inline-block;
+    font-size: 2em;
+    color: green;
 }
 
 .main-header {
@@ -103,4 +141,14 @@ blockquote {
     margin-left: 35%;
     padding: 122px 56px 72px;
     box-sizing: border-box;
+}
+
+.row{
+    overflow: auto;
+
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
 }
