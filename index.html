@@ -16,7 +16,7 @@
 
 <body>
     <header class="main-header">
-        <a href="index.html" class="main-header-link">
+        <a href="index.html" class="main-header-link imagem-link">
             <img src="images/avatar.jpg" alt="Foto de um homem">
         </a>
         <h1 class="main-header-title">Trabalhos e groselhas de <br>
@@ -45,49 +45,55 @@
 
         <section class="main-content-section">
             <h3>Recent Work</h3>
+            <div class="row">
+                <div class="col-2">
 
-            <article class="recent-word-card">
-                <a href="images/fulls/01.jpg">
-                    <img src="images/fulls/01.jpg" alt="carro em rua">
-                </a>
-                <p class="recent-word-card-title">Magna sed consequat tempus</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-word-card">
-                <a href="images/fulls/02.jpg">
-                    <img src="images/fulls/02.jpg" alt="paisagem">
-                </a>
-                <p class="recent-word-card-title">Ultricies lacinia interdum</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-word-card">
-                <a href="images/fulls/03.jpg">
-                    <img src="images/fulls/03.jpg" alt="livros">
-                </a>
-                <p class="recent-word-card-title">Tortor metus commodo</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-word-card">
-                <a href="images/fulls/04.jpg">
-                    <img src="images/fulls/04.jpg" alt="degraus">
-                </a>
-                <p class="recent-word-card-title">Quam neque phasellus</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-word-card">
-                <a href="images/fulls/05.jpg">
-                    <img src="images/fulls/05.jpg" alt="montanha com neve">
-                </a>
-                <p class="recent-word-card-title">Nunc enim commodo aliquet</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
-            <article class="recent-word-card">
-                <a href="images/fulls/06.jpg">
-                    <img src="images/fulls/06.jpg" alt="casa pequena">
-                </a>
-                <p class="recent-word-card-title">Risus ornare lacinia</p>
-                <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-            </article>
+                    <article class="recent-word-card">
+                        <a class="imagem-link" href="images/fulls/01.jpg">
+                            <img class="col-1-3" src="images/fulls/01.jpg" alt="carro em rua">
+                        </a>
+                        <p class="recent-word-card-title">Magna sed consequat tempus</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-word-card">
+                        <a class="imagem-link" href="images/fulls/02.jpg">
+                            <img class="col-1-3" src="images/fulls/02.jpg" alt="paisagem">
+                        </a>
+                        <p class="recent-word-card-title">Ultricies lacinia interdum</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-word-card">
+                        <a class="imagem-link" href="images/fulls/03.jpg">
+                            <img class="col-1-3" src="images/fulls/03.jpg" alt="livros">
+                        </a>
+                        <p class="recent-word-card-title">Tortor metus commodo</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                </div>
+                <div class="col-2">
+                    <article class="recent-word-card">
+                        <a class="imagem-link" href="images/fulls/04.jpg">
+                            <img class="col-1-3" src="images/fulls/04.jpg" alt="degraus">
+                        </a>
+                        <p class="recent-word-card-title">Quam neque phasellus</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-word-card">
+                        <a class="imagem-link" href="images/fulls/05.jpg">
+                            <img class="col-1-3" src="images/fulls/05.jpg" alt="montanha com neve">
+                        </a>
+                        <p class="recent-word-card-title">Nunc enim commodo aliquet</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                    <article class="recent-word-card">
+                        <a class="imagem-link" href="images/fulls/06.jpg">
+                            <img class="col-1-3" src="images/fulls/06.jpg" alt="casa pequena">
+                        </a>
+                        <p class="recent-word-card-title">Risus ornare lacinia</p>
+                        <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+                    </article>
+                </div>
+            </div>
 
             <a href="#" title="Veja Portfolio Completo" class="button">Veja Portfolio Completo</a>
 
@@ -113,39 +119,40 @@
                             </div>
 
                             <div class="col-2">
-                            <label for="email">E-mail</label>
-                            <input type="text" name="email" id="email" placeholder="E-mail">
+                                <label for="email">E-mail</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
                         </div>
+
+                        <label for="mensagem">Digite sua mensagem</label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Digite uma mensagem..."></textarea>
+
+                        <input type="submit" value="Enviar"
+                            class="button-default button-default-stroke button-default-big">
+
+                    </form>
+
                 </div>
+                <div class="col-1-3">
+                    <address>
+                        <p>
+                            <span>Endereço:</span>
+                            1234 Somewhere Rd. Nashville, TN 00000 United States
+                        </p>
 
-                <label for="mensagem">Digite sua mensagem</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Digite uma mensagem..."></textarea>
+                        <p>
+                            <span>Telefone:</span>
+                            000-000-000
+                        </p>
 
-                <input type="submit" value="Enviar" class="button-default button-default-stroke button-default-big">
+                        <p>
+                            <span>E-mail:</span>
+                            email@server.com
+                        </p>
 
-                </form>
+                    </address>
 
-            </div>
-            <div class="col-1-3">
-                <address>
-                    <p>
-                        <span>Endereço:</span>
-                        1234 Somewhere Rd. Nashville, TN 00000 United States
-                    </p>
-
-                    <p>
-                        <span>Telefone:</span>
-                        000-000-000
-                    </p>
-
-                    <p>
-                        <span>E-mail:</span>
-                        email@server.com
-                    </p>
-
-                </address>
-
-            </div>
+                </div>
             </div>
 
 
@@ -389,8 +396,8 @@
                 <label for="msg">Mensagem</label>
                 <textarea placeholder="Digite uma mensagem" id="msg"></textarea>
 
-                <input type="submit" class="button-default" value="Enviar">
-                <input type="reset" class="button-default-strock" value="Limpar">
+                <input type="submit" class="button-default button-default-big" value="Enviar">
+                <input type="reset" class=" button-default button-default-strock button-default-big" value="Limpar">
 
             </form>
 
@@ -402,16 +409,16 @@
             <div class="gallery-img">
                 <img src="images/fulls/01.jpg" alt="carro na rua">
             </div>
-            <div class="gallery-thumb">
-                <img src="images/thumbs/01.jpg" alt="">
-                <img src="images/thumbs/02.jpg" alt="">
-                <img src="images/thumbs/03.jpg" alt="">
-                <img src="images/thumbs/04.jpg" alt="">
-                <img src="images/thumbs/05.jpg" alt="">
-                <img src="images/thumbs/06.jpg" alt="">
-                <img src="images/thumbs/01.jpg" alt="">
-                <img src="images/thumbs/02.jpg" alt="">
-                <img src="images/thumbs/03.jpg" alt="">
+            <div class="gallery-thumb row">
+                <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/04.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/05.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/06.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
+                <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
             </div>
 
             <h4>Left &amp; Right</h4>
